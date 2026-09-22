@@ -1,0 +1,13 @@
+{
+  "name": "bodega-insumos",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["web", "server"],
+  "scripts": {
+    "dev:web": "npm run dev -w web",
+    "dev:api": "npm run dev -w server",
+    "build:web": "npm run build -w web",
+    "build:api": "npm run build -w server",
+    "typecheck": "npm run typecheck -w web && npm run typecheck -w server"
+  }
+}
