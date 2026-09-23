@@ -4,7 +4,7 @@ export const CATEGORIAS_INSUMOS = [
   "Tapas",
   "Cápsulas",
   "Etiquetas",
-  "Contraetiquetas",
+  "Contraetiqueta",
   "Cajas",
   "Separadores",
 ] as const;
