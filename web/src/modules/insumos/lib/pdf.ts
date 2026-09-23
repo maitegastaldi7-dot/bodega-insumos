@@ -63,8 +63,11 @@ export async function generarYCompartirFichaPDF(
     doc.setFontSize(9);
     doc.setTextColor(120, 130, 140);
 
+    const categoria =
+      TABLA_LABEL[insumo.tabla] ?? insumo.tabla ?? "Insumo";
+
     doc.text(
-      TABLA_LABEL[insumo.tabla].toUpperCase(),
+      String(categoria).toUpperCase(),
       marginX,
       y
     );
