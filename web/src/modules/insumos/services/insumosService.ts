@@ -29,7 +29,7 @@ export const insumosService = {
       tapas: "Tapas",
       capsulas: "Cápsulas",
       etiquetas: "Etiquetas",
-      contraetiqueta: "Contraetiqueta",
+      contraetiquetas: "Contraetiquetas",
       cajas: "Cajas",
       separadores: "Separadores",
     };
